@@ -1,25 +1,24 @@
 .quote_section {
-    background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  height: 30vw;
+  .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 50%;
-        .quote {
-            font-style: italic;
-            font-size: 32px;
-            color: #1F2937;
-
-        }
-        .subquote {
-            display: flex;
-            justify-content: flex-end;
-            p {
-            font-weight: 800;
-
-            }
-        }
+    width: 50%;
+    .quote {
+      font-style: italic;
+      font-size: 32px;
+      color: var.$text_white;
+      text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 40px white;
     }
+    .subquote {
+      display: flex;
+      justify-content: flex-end;
+      p {
+        font-weight: 800;
+      }
+    }
+  }
 }
