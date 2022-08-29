@@ -36,9 +36,9 @@ header .header_top img:hover {
 
 .hero {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   height: 60vw;
-  align-items: center;
   padding: 50px;
 }
 .hero .hero_header h1,
@@ -64,8 +64,8 @@ header .header_top img:hover {
 
 .content_container {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   gap: 30px;
   height: 30vw;
 }
@@ -85,8 +85,8 @@ header .header_top img:hover {
 }
 .content_container .items_container .item .item_image {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
@@ -168,6 +168,30 @@ button:hover {
           animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
+html {
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
 .quote_section {
   display: flex;
   justify-content: center;
@@ -201,6 +225,7 @@ button:hover {
   height: 30vw;
 }
 .sign-container .container {
+  background-color: #3882f6;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -214,8 +239,8 @@ button:hover {
 }
 .sign-container .container .container_button {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 footer {
