@@ -1,0 +1,29 @@
+header {
+  background-color: #1f2937;
+  .header_top {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      gap: 15px;
+      li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: #f9faf8;
+        }
+      }
+    }
+  }
+  img {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+  }
+}
+img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
