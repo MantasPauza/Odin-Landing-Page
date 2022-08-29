@@ -1,0 +1,25 @@
+.quote_section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        .quote {
+            font-style: italic;
+            font-size: 32px;
+            color: #1F2937;
+
+        }
+        .subquote {
+            display: flex;
+            justify-content: flex-end;
+            p {
+            font-weight: 800;
+
+            }
+        }
+    }
+}

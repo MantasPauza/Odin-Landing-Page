@@ -70,14 +70,48 @@ header .hero img:hover {
   display: flex;
   justify-content: space-around;
 }
-.main_info .items_container .item_image {
+.main_info .items_container .item {
+  display: flex;
+  flex-direction: column;
+}
+.main_info .items_container .item .item_image {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
 }
-.main_info .items_container .item_image img {
+.main_info .items_container .item .item_image img {
   width: 80%;
   height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.quote_section {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+.quote_section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.quote_section .container .quote {
+  font-style: italic;
+  font-size: 32px;
+  color: #1F2937;
+}
+.quote_section .container .subquote {
+  display: flex;
+  justify-content: flex-end;
+}
+.quote_section .container .subquote p {
+  font-weight: 800;
 }/*# sourceMappingURL=styles.css.map */

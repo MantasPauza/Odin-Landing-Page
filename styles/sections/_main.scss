@@ -2,19 +2,21 @@
     .items_container{
         display: flex;
         justify-content: space-around;
-        .item_image{
+        .item {
+            display: flex;
+            flex-direction: column;
+            .item_image{
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100%;
             width: 100%;
-            img {
+                img {
             width: 80%;
             height: auto;
+                }
             }
-        }
-        .item_content {
-
+            
         }
     }
 }
