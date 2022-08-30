@@ -20,14 +20,14 @@ header,
 }
 
 body {
-    @include flex-column;
+    @include mix.flex-column;
     justify-content: center;
     max-width: 2560px;
     margin: 0;
 }
 
 .wrapper {
-    @include flex-column;
+    @include mix.flex-column;
 }
 
 button {

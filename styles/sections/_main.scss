@@ -1,17 +1,21 @@
 .hero {
-  @include align-center;
+  @include mix.align-center;
   justify-content: space-between;
-  height: 60vw;
-  padding: 50px;
+  height: 50vw;
+  padding: 10px 50px;
   .hero_header {
     h1,
     p {
       color: var.$text_white;
+      text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 40px white;
+    }
+    button {
+      width: 20%
     }
   }
 
   .hero_image {
-    @include justify-center;
+    @include mix.justify-center;
     .img {
       background-image: linear-gradient(
         180deg,
@@ -32,7 +36,7 @@
 }
 
 .content_container {
-    @include align-center;
+    @include mix.align-center;
   flex-direction: column;
   gap: 30px;
   height: 30vw;
@@ -45,10 +49,10 @@
     justify-content: space-around;
     gap: 30px;
     .item {
-        @include flex-column;
+        @include mix.flex-column;
       gap: 30px;
       .item_image {
-        @include flex-center;
+        @include mix.flex-center;
         height: 100%;
         width: 100%;
         .img {

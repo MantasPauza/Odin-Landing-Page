@@ -1,8 +1,8 @@
 .quote_section {
-  @include justify-center;
-  height: 30vw;
+  @include mix.justify-center;
+  height: 20vw;
   .container {
-    @include flex-column;
+    @include mix.flex-column;
     justify-content: center;
     width: 50%;
     .quote {
@@ -16,6 +16,7 @@
       justify-content: flex-end;
       p {
         font-weight: 800;
+        color: var.$text_white;
       }
     }
   }
