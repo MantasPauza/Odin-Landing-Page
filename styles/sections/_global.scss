@@ -23,6 +23,7 @@ body {
     @include flex-column;
     justify-content: center;
     max-width: 2560px;
+    margin: 0;
 }
 
 .wrapper {
