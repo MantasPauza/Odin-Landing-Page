@@ -113,6 +113,12 @@ html * {
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #646464;
+}
+
 header,
 .hero {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(../../Images/background.jpg) no-repeat center center fixed;
