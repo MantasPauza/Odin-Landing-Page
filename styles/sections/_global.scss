@@ -11,6 +11,12 @@ html {
   background-color: #646464; 
 }
 
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header,
 .hero {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))
